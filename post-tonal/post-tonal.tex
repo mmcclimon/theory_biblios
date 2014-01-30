@@ -1,0 +1,39 @@
+\documentclass[12pt]{article}
+
+% page layout
+\usepackage[margin=1in,headheight=.5in]{geometry}
+\usepackage{setspace}
+
+% font
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text]{Junicode}
+
+% biblio
+\usepackage[backend=biber]{biblatex-chicago}
+\addbibresource{post-tonal.bib}
+
+\usepackage[chicago]{ellipsis}
+
+\begin{document}
+
+\raggedright
+
+{\bfseries\large Post-tonal theory bibliography}
+
+\medskip
+
+{ \small Compiled from Joseph N.~Straus, \emph{Introduction to Post-Tonal
+Music}, 3rd ed. (Upper Saddle River, NJ: Prentice Hall, 2005). }
+
+\nocite{*}
+\printbibliography[heading=none]
+
+% copyright notice
+\vspace*{\fill}
+\begin{spacing}{0.75}
+{ \scriptsize Compiled by Michael McClimon (http://www.mcclimon.org), 2014.
+Licensed under the Creative Commons Attribution 4.0 International License \\
+(do whatever you want with it, just include my name).}
+\end{spacing}
+
+\end{document}
