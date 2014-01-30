@@ -25,4 +25,5 @@ I use, [Junicode](http://junicode.sourceforge.net/). You'll want to compile
 using `xelatex` (`luatex` might also work?) to use the fontspec packages.
 Everything is formatted for Chicago style, since that's what I use; if you
 want to format it some other way there's probably a LaTeX package for it...I
-make no guarantees that the bib files
+make no guarantees that the bib files will work properly for some of the more
+exotic entries.
